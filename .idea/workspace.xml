@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="task &quot;annotation&quot;">
-      <change afterPath="$PROJECT_DIR$/src/AnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/ClassNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/MyClassExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/MyClassExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/Version.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/Version1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/annotations/VersionMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnnotationsDemo.java" beforeDir="false" />
-    </list>
+    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557603248548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task &quot;annotation&quot;">
+      <created>1557605514188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557605514188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -201,7 +198,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010033" side_tool="true" weight="0.32914925" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49899665" visible="true" weight="0.68758714" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49899665" visible="true" weight="0.43096235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
