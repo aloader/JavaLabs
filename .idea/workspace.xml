@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/BiFuncCompose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/FuncWithField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/FunctionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/MyFunctionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/MySupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/RunSomething.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/SumThreeArgs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,13 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AnnotationDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/LambdaDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -34,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,14 +58,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AnnotationsDemo.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/FuncWithField.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/RunSomething.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/SumThreeArgs.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/MyFunctionException.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/FunctionException.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/BiFuncCompose.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/MySupplier.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/Intercept.java" />
+        <option value="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" />
+        <option value="$PROJECT_DIR$/src/LambdaDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="90" />
-    <option name="width" value="1569" />
-    <option name="height" value="876" />
+    <option name="x" value="54" />
+    <option name="width" value="1634" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,8 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,21 +102,23 @@
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_annotations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LogExample" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15555556" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LambdaDemo">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AnnotationDemo" />
       <module name="JavaLabs" />
@@ -120,6 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="LambdaDemo" />
+      <module name="JavaLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnnotationDemo" />
+      <item itemvalue="Application.LambdaDemo" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,13 +212,20 @@
       <option name="project" value="LOCAL" />
       <updated>1557606153235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task &quot;annotation&quot;">
+      <created>1557606162145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557606162145</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="90" width="1569" height="876" extended-state="0" />
+    <frame x="54" y="0" width="1634" height="1017" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25886288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20897436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -195,17 +233,17 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32914925" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3881119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010033" side_tool="true" weight="0.32914925" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49899665" visible="true" weight="0.43096235" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50064105" side_tool="true" visible="true" weight="0.25641027" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49807692" weight="0.34965035" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49935898" visible="true" weight="0.25641027" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,7 +338,8 @@
     <MESSAGE value="create new project" />
     <MESSAGE value="check git" />
     <MESSAGE value="task &quot;annotation&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="task &quot;annotation&quot;" />
+    <MESSAGE value="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/annotations/testTT.java">
@@ -310,20 +349,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnnotationsDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/AnnotationsDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/FuncWithField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/RunSomething.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/SumThreeArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnnotationDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/MyFunctionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/FunctionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="96" column="24" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/BiFuncCompose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/FunctionLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/MySupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LambdaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
