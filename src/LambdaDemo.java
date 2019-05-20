@@ -2,16 +2,15 @@
 2.1.2 Lambda, functional interface
  */
 
+import java.time.LocalDateTime;
 import java.util.Arrays;
-import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.function.*;
 import java.util.regex.Pattern;
 import lambdas.*;
 
 public class LambdaDemo {
-    static int pow=0;
-    static Long StartLong=0L;
 
     public static void main(String[] args) {
 
@@ -24,7 +23,7 @@ public class LambdaDemo {
         // будет передано первым аргументом
         System.out.println("\n*** task 02 ***");
         String nm = "Lenin";
-        Consumer printHiName = (str)-> System.out.println("Hi, " + str+".");
+        Consumer printHiName = str-> System.out.println("Hi, " + str+".");
         printHiName.accept(nm);
 
 
@@ -32,17 +31,15 @@ public class LambdaDemo {
         // предыдущую лямбду, и добавляет вывод “Have a nice day!”
         // после выполнения лямбды
         System.out.println("\n*** task 03 ***");
-        BiConsumer<Consumer<String>, String> printHaveANiceDay = (o, s)-> {
-            o.accept(s);
-            System.out.println("Have a nice day!");
+        Function<Consumer, Consumer> printHaveANiceDay = o-> {
+            return o.andThen((s)-> System.out.println("Have a nice day!"));
         };
-        printHaveANiceDay.accept(printHiName, "Lennon");
+        printHaveANiceDay.apply(printHiName).accept("Lennon");
 
         // Вернуть лямбду, которая возвращает текущее время
         System.out.println("\n*** task 04 ***");
         Supplier<String> CurrTime = ()-> {
-            Date d = new Date();
-            return d.getHours()+":"+d.getMinutes();
+            return String.valueOf((LocalDateTime.now()).toLocalTime());
         };
         System.out.println("current time: "+CurrTime.get());
 
@@ -52,39 +49,28 @@ public class LambdaDemo {
         System.out.println("\n*** task 05 ***");
         String emailPattern = "[^@]*@{1}[^@]*\\.{1}[^@.]++";
         String testStr = "h.jdfgh.kda@gmail.ty.u.u.u..by";
-        Predicate<String> IsEmail = (str) -> {return Pattern.matches(emailPattern, str);};
-        System.out.println("is string \""+ testStr + "\" email? " + IsEmail.test(testStr));;
+        Predicate<String> isEmail = str -> Pattern.matches(emailPattern, str);
+        System.out.println("is string \""+ testStr + "\" email? " + isEmail.test(testStr));;
         testStr = "sdf.gsdf@dfgb.dsfg@tut.by";
-        System.out.println("String \""+ testStr + "\" is email? " + IsEmail.test(testStr));
+        System.out.println("String \""+ testStr + "\" is email? " + isEmail.test(testStr));
 
         // К предыдущей лямбде добавить проверку на длину строки (> 10)
         System.out.println("\n*** task 06 ***");
         testStr = "sdf.gsdf@dfgb.dsfg@tut.by";
-        Predicate<String> IsEmailMore10Char = (str) -> {return str.length()>10;};
+        Predicate<String> more10Char = str -> str.length()>10;
         System.out.println("String \""+ testStr + "\" is email and lenght>10? " +
-                IsEmail.and(IsEmailMore10Char).test(testStr));
+                isEmail.and(more10Char).test(testStr));
 
         // К предыдущей лямбде добавить отрицание
         System.out.println("\n*** task 07 ***");
-        Predicate<Boolean> IsNot = (n)->!n;
         testStr = "sdf.gsdf@dfgb.dsfg@tut.by";
-        System.out.println("NOT string \":"+testStr+"\" is email and lenght>10 "+
-                IsNot.test(IsEmail.and(IsEmailMore10Char).test(testStr)));
+        System.out.println("NOT string \":"+testStr+"\" is email and lenght>10 " +
+                isEmail.and(more10Char).negate().test(testStr));
+
 
         // Вернуть лямбду, которая проверяет число на принадлежность к ряду
         // Фибоначчи. Лямбда должна запоминать ранее вычисленные значения.
-        System.out.print("\n*** task 08 ***");
-        int[] FNum = {0, 0};
-        Supplier<Integer> getFNum = ()-> {
-            int nextNum;
-            nextNum = FNum[1]>=1 ? FNum[0]+FNum[1] : 1;
-            FNum[0] = FNum[1];
-            FNum[1] = nextNum;
-            return nextNum;
-        };
-        for (int i=0; i<10; i++) System.out.print(getFNum.get()+" ");
-        System.out.println("");
-        System.out.println("previous: " + FNum[0] + " " + FNum[1]);
+        new task08_CheckNumFibonachchi();
 
         // Вернуть лямбду, которая возвращает сумму двух входных аргументов
         System.out.println("\n*** task 09 ***");
@@ -103,7 +89,7 @@ public class LambdaDemo {
 
         // Вернуть лямбду, которая возводит число в квадрат
         System.out.println("\n*** task 12 ***");
-        Function<Integer, Integer> getNumSquare = (num)->{return num*num;};
+        Function<Integer, Integer> getNumSquare = num->{return num*num;};
         System.out.println("square of 6: " + getNumSquare.apply(6));
 
         // Добавить к предыдущей лямбде инкремент перед
@@ -121,15 +107,16 @@ public class LambdaDemo {
 
         // Вернуть лямбду, которая решает уравнение x^2 + 3x – 1 для заданного x
         System.out.println("\n*** task 15 ***");
-        Function<Integer, Integer> quadEcu1 = (x)->{return x*x+3*x-1;};
+        Function<Integer, Integer> quadEcu1 = x->{return x*x+3*x-1;};
         System.out.println("x^2 + 3x – 1, when x=3: " + quadEcu1.apply(3));
 
         // Вернуть лямбду, которая решает уравнение
         // (x^2 + 3x – 1)^2 + 3* (x^2 + 3x – 1) -1  для заданного x.
         // Необходимо решить задачу переиспользованием предыдущей лямбды.
         System.out.println("\n*** task 16 ***");
+        Function<Integer, Integer> quadEcu2 = quadEcu1;
         System.out.println("(x^2 + 3x – 1)^2 + 3* (x^2 + 3x – 1) -1, when x=3: " +
-                quadEcu1.apply((quadEcu1.apply(3))));
+                quadEcu2.andThen(quadEcu1).apply(3));
 
         // Вернуть лямбду, которая решает уравнение
         // x*x*x + y*y*y + z*z*z + u*u*u + v*v*v
@@ -147,18 +134,21 @@ public class LambdaDemo {
         // А вторая уже на основании входящего значения возводит в степень
         System.out.println("\n*** task 18 ***");
         System.out.println("x^y");
-        Function<Integer, Integer> f18 = (x)-> {
-            int res=0;
-            if ( pow == 0) pow = x;
-                else {
-                    res = 1;
-                    for (int i=1; i<=pow; i++, res*=x);
-            }
-            return res;
+
+        Supplier< Function<Integer, Integer>> f18_0 = ()->{
+                int[] pow = {-1};
+                return x->{
+                    if (pow[0]==-1) {
+                        pow[0] = x;
+                        return 0;
+                    } else for (int i=1; i<pow[0]; i++, x *= x);
+                    return x;
+                };
         };
-        System.out.println("f18.apply(2), result: " +  f18.apply(2));
-        System.out.println("f18.apply(10), result: " +  f18.apply(10));
-        System.out.println("f18.apply(5), result: " +  f18.apply(5));
+        Function< Integer, Integer> f18_1 = f18_0.get();
+        System.out.println("f18.apply(2), result: " +  f18_1.apply(2));
+        System.out.println("f18.apply(10), result: " +  f18_1.apply(10));
+        System.out.println("f18.apply(5), result: " +  f18_1.apply(5));
 
 
         // Вернуть лямбду, которая производит композицию двух функций. (f1,f2) => f2(f1(x)) .
@@ -167,7 +157,7 @@ public class LambdaDemo {
         // f.compose(f8.compose(x -> x * x, x -> x - 10), f8.compose(x -> x / 2, x -> x + 1)    46
         System.out.println("\n*** task 19 ***");
         System.out.println("lambda (f1,f2) => f2(f1(x))");
-        BiFuncCompose<Integer, Integer> f19 = (x)->x;
+        BiFuncCompose<Integer, Integer> f19 = x->x;
         System.out.println("f19.compose(x->x*2,x->x-1).apply(10), result: " + f19.compose(x->x*2,x->x-1).apply(10));
         System.out.println("f19.compose(f19.compose(x -> x * x, x -> x - 10),f19.compose(x -> x / 2, x -> x + 1)).apply(10), result: " +
                 f19.compose(f19.compose(x -> x * x, x -> x - 10),
@@ -179,23 +169,29 @@ public class LambdaDemo {
         //f.apply(Arrays.asList(2,3,5))                 X -> 2*x*x + 3*x + 5
         //f.apply(Arrays.asList(-5,-10))                X -> -5*x – 10
         //f.apply(Arrays.asList(8))                     X -> 8
+
         System.out.println("\n*** task 20 ***");
         System.out.println("polinom");
-        Function<List, String> f_1 = (List k_lst)-> {
-            String res="", factor="";
-            Integer[] arr= (Integer[]) k_lst.toArray();
-            int i,j,k;
-
-            for (i=arr.length-1, j=0; i>=0; i--, j++) {
-                factor = "";
-                for (k=0; k<j; k++) factor = factor + "*x";
-                res = ((arr[i]>0)?"+":"") + arr[i].toString() + factor + res;
-            }
-            return (res.startsWith("+"))?res.substring(1):res;
+        Function<List<Integer>, Function <Integer, Integer>> getPolinom = (k_list) -> {
+            Integer[] factor = (Integer[]) k_list.toArray();
+            return x -> {
+                int i,j,k, res=0, fact=1;
+                for (i=factor.length-1, j=0; i>=0; i--, j++) {
+                    fact = factor[i];
+                    for (k=0; k<j; k++) fact *=x;
+                    res += fact;
+                }
+                return res;
+            };
         };
-        System.out.println("coeff {2,3,5} X-> "+f_1.apply(Arrays.asList(2,3,5)));
-        System.out.println("coeff {-5,10} X-> "+f_1.apply(Arrays.asList(-5,10)));
-        System.out.println("coeff {8}     X-> "+f_1.apply(Arrays.asList(8)));
+        Function<Integer, Integer> f20;
+        f20 = getPolinom.apply(Arrays.asList(2,3,5));
+        System.out.println("f20 = getPolinom.apply(Arrays.asList(2,3,5)), f_20.apply(5)-> "+f20.apply(5));
+        f20 = getPolinom.apply(Arrays.asList(-5,10));
+        System.out.println("f20 = getPolinom.apply(Arrays.asList(-5,10)), f_20.apply(5)-> "+f20.apply(5));
+        f20 = getPolinom.apply(Arrays.asList(8));
+        System.out.println("f20 = getPolinom.apply(Arrays.asList(8)), f_20.apply(5)-> "+f20.apply(5));
+
 
         // Вернуть лямбду, которая кеширует результат некоторой функции, которая является
         // входных аргументом
@@ -203,23 +199,32 @@ public class LambdaDemo {
         //f.apply(() -> Math.random())      0.42
         //f.apply(() -> Math.random())      0.42
         //f.apply(() -> Math.random())      0.42
-        //
         System.out.println("\n*** task 21 ***");
         System.out.println("cache function result:");
-        Object[] f_res=new Object[2];
-        Function<Supplier, Object> f_2= (func)-> {
-            if (f_res[0]==null)  {
-                f_res[0] = (Object) func;
-                f_res[1] = (Object) func.get();
-            }
-            return (Object) f_res[1];
+
+        Supplier<Function<Supplier, Object>> f21_1 = () -> {
+            HashMap<Supplier, Object> cache = new HashMap();
+            return (f) -> {
+                if (!cache.containsKey(f)) {
+                    cache.put(f, f.get());
+                } else {
+                    System.out.println("result from cache:");
+                }
+                return cache.get(f);
+            };
         };
-        System.out.println("f.apply(() -> Math.random()) " + f_2.apply(() -> Math.random()));
-        System.out.println("f.apply(() -> Math.random()) " + f_2.apply(() -> Math.random()));
-        System.out.println("Reset cache, new function");
-        f_res[0] = null;
-        System.out.println("f.apply(() -> Math.PI) " + f_2.apply(() -> Math.PI));
-        System.out.println("f.apply(() -> Math.PI) " + f_2.apply(() -> Math.PI));
+        Function<Supplier, Object> f21_2 = f21_1.get();
+        Supplier<Object> func1 = () -> Math.random();
+        Supplier<Object> func2 = () -> Math.PI;
+
+        System.out.println("f.apply(() -> Math.random()) " + f21_2.apply(func1));
+        System.out.println("f.apply(() -> Math.random()) " + f21_2.apply(func1));
+        System.out.println("f.apply(() -> Math.PI) " + f21_2.apply(func2));
+        System.out.println("f.apply(() -> Math.PI) " + f21_2.apply(func2));
+        System.out.println("f.apply(() -> Math.random()) " + f21_2.apply(func1));
+        System.out.println("f.apply(() -> Math.PI) " + f21_2.apply(func2));
+        System.out.println("f.apply(() -> Math.random()) " + f21_2.apply(func1));
+        System.out.println("f.apply(() -> Math.random()) " + f21_2.apply(func1));
         System.out.println();
 
 
@@ -274,6 +279,7 @@ public class LambdaDemo {
         FunctionLogger<Integer, Integer> f23 = (x)->x;
         f23.intercept(x -> x + 1, System.out::println).apply(10);
 
+
         // Вернуть лямбду, представляющую из себя последовательность, которая начинается с переданного x
         // Пример входа                                         Пример выхода
         //Supplier<Long> startFrom100 = f.apply(100L);
@@ -281,16 +287,19 @@ public class LambdaDemo {
         //startFrom100.get();                                   101
         //startFrom100.get();                                   102
         System.out.println("\n*** task 24 ***");
-        System.out.println("set start point: f24.apply(100L)");
-        Function<Long, Supplier<Long>> f24 = (x)->{
-            StartLong=x;
-            return (Supplier)()->{return StartLong++;};
+        System.out.println("set start point: 100");
+        Function<Integer, Supplier<Integer>> getStartFrom = x-> {
+            Integer[] startSeq = {x};
+            return () -> {
+                return startSeq[0]++;
+            };
         };
-        Supplier<Long> startFrom100 = f24.apply(100L);
-        System.out.println("startFrom100.get(): " + startFrom100.get());
-        System.out.println("startFrom100.get(): " + startFrom100.get());
-        System.out.println("startFrom100.get(): " + startFrom100.get());
-        System.out.println("startFrom100.get(): " + startFrom100.get());
+        Supplier<Integer> startFrom = getStartFrom.apply(100);
+        System.out.println("startFrom.get(): " + startFrom.get());
+        System.out.println("startFrom.get(): " + startFrom.get());
+        System.out.println("startFrom.get(): " + startFrom.get());
+        System.out.println("startFrom.get(): " + startFrom.get());
+
     }
 
 }
