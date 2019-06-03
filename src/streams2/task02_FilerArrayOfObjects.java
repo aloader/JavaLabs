@@ -50,4 +50,5 @@ public class task02_FilerArrayOfObjects extends task {
                 .collect(Collectors.toList());
         System.out.println(filteredListOfPerson);
     }
+
 }

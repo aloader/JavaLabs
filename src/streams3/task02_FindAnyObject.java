@@ -18,10 +18,10 @@ import static utils.CreateUsers.createUsersArrayList;
         text = "Дан массив объектов (поля: id – Long, name - String, date - LocalDate)\n" +
                 "Найти любой элемент в массиве по заданному имени с date больше текущей даты.\n" +
                 "В случае отсутствия такового вернуть null.")
-public class task02 extends task {
+public class task02_FindAnyObject extends task {
     private ArrayList<User> listOfUsers = new ArrayList<User>();
 
-    public task02() {
+    public task02_FindAnyObject() {
         super();
         listOfUsers = createUsersArrayList();
         System.out.println("\nList of users: \n" + listOfUsers);
@@ -44,7 +44,7 @@ public class task02 extends task {
     private Optional<User> findUser(Predicate<User> filter) {
         return listOfUsers.stream()
                 .filter(filter)
-                .findFirst();
+                .findAny();
     }
 
 }

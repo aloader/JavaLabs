@@ -17,6 +17,7 @@ import static utils.CreateIntegerArray.createIntegerArray;
         text = "Верните стрим, состоящий только из первой половины элементов входного массива.")
 public class task10_FirstHalfArray extends task {
     public task10_FirstHalfArray() {
+        super();
 
         Integer[] Arr = createIntegerArray();
         System.out.println("\narray in: " + Arrays.toString(Arr));

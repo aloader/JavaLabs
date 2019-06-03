@@ -14,7 +14,7 @@ abstract public class task {
         if (aclass.isAnnotationPresent(LabAnnotation.class)) {
             // annotation presents
             System.out.println("\n" +
-                    "*** task " + aclass.getAnnotation(LabAnnotation.class).number() + "***");
+                    "*** task " + aclass.getAnnotation(LabAnnotation.class).number() + " ***");
             System.out.println(aclass.getAnnotation(LabAnnotation.class).text());
         }
     }

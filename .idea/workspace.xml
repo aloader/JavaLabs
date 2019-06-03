@@ -1,19 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/BiFuncCompose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/FuncWithField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/FunctionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/MyFunctionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/MySupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/RunSomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/SumThreeArgs.java" afterDir="false" />
+    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas">
+      <change afterPath="$PROJECT_DIR$/hs_err_pid3188.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/payload/java8/stream/File_id.diz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/payload/java8/stream/wordCount.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams2/task16_SortStringByPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams2/task17_IntAndDoubleStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams2/task18_CombineListOfListToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task06_HashMap10MostFreqWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task07_HashMap10MostProbWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task08_NumberOfElementsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task09_ObjectsQuantityWithDateEqualCurrentYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task10_IsUserAdminExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task11_IsObjectNotCurrentYearExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task12_MinNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task13_MaxNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task14_NearestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task15_FarthestPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task17_PermutationsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task18_PermutationsString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task19_FindMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task20_CalculateIntegral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task21_DoFunctionToArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task22_IntStreamFromStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task23_SumOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams3/taskXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/CreatePoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/CreateRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/StringWithId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLabs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StreamsDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task02_FilerArrayOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task02_FilerArrayOfObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task10_FirstHalfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task10_FirstHalfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task11_ThirdPartArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task11_ThirdPartArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task12_TwoElementsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task12_TwoElementsArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task19_StringArrayWithColon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task19_StringArrayWithColon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task01_FindFirstObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task01_FindFirstObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task05_LenghtWordsMoreThan10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task05_LenghtWordsMoreThan10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CreateUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,23 +65,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LambdaDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,31 +82,75 @@
     <option name="BRANCH_INFO_UPDATE_TIME" value="20" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="4ef43062-40c4-4d18-8772-30ac47c36de7" />
+    <option name="defaultAccountId" value="4c4a24f7-1534-4afb-b48b-f6b8483d5d7c" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AnnotationsDemo.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/FuncWithField.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/RunSomething.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/SumThreeArgs.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/MyFunctionException.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/FunctionException.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/BiFuncCompose.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/MySupplier.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/Intercept.java" />
-        <option value="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" />
-        <option value="$PROJECT_DIR$/src/LambdaDemo.java" />
+        <option value="$PROJECT_DIR$/src/streams2/task11.java" />
+        <option value="$PROJECT_DIR$/src/streams2/task11_ThirdPartArray.java" />
+        <option value="$PROJECT_DIR$/src/streams2/task12.java" />
+        <option value="$PROJECT_DIR$/src/StreamsDemo2.java" />
+        <option value="$PROJECT_DIR$/src/utils/CreateUsers.java" />
+        <option value="$PROJECT_DIR$/src/utils/User.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task01.java" />
+        <option value="$PROJECT_DIR$/src/streams2/task02_FilerArrayOfObjects.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task02.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task01_FindFirstObject.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java" />
+        <option value="$PROJECT_DIR$/src/streams1/task04_StreamFromFile.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task03.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task04.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task05.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task05_LenghtWordsMoreThan10.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task06.java" />
+        <option value="$PROJECT_DIR$/src/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task07.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task16.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task22.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task23.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task23_SumOddNumbers.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task24.java" />
+        <option value="$PROJECT_DIR$/src/utils/CreateObjects.java" />
+        <option value="$PROJECT_DIR$/src/utils/Object.java" />
+        <option value="$PROJECT_DIR$/src/utils/Records.java" />
+        <option value="$PROJECT_DIR$/src/utils/CreateRecords.java" />
+        <option value="$PROJECT_DIR$/src/utils/StringWithId.java" />
+        <option value="$PROJECT_DIR$/src/utils/Record.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task25.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task26.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task21.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task21_DoFunctionToArrayElements.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task20.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task20_CalculateIntegral.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task19.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task19_FindMinMax.java" />
+        <option value="$PROJECT_DIR$/src/utils/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/utils/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task17.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task18_PermutationsString.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task18.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task17_PermutationsArray.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task26_GetStringByPattern.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java" />
+        <option value="$PROJECT_DIR$/src/streams3/task22_IntStreamFromStringArray.java" />
+        <option value="$PROJECT_DIR$/src/StreamsDemo3.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="width" value="1634" />
-    <option name="height" value="1017" />
+    <option name="x" value="578" />
+    <option name="width" value="1348" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -86,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,29 +171,49 @@
             <path>
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="streams3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15555556" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaDemo">
+  <component name="RunManager" selected="Application.StreamsDemo3">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AnnotationDemo" />
       <module name="JavaLabs" />
@@ -147,9 +242,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsDemo1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="StreamsDemo1" />
+      <module name="JavaLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsDemo2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="StreamsDemo2" />
+      <module name="JavaLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsDemo3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="StreamsDemo3" />
+      <module name="JavaLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AnnotationDemo" />
       <item itemvalue="Application.LambdaDemo" />
+      <item itemvalue="Application.StreamsDemo1" />
+      <item itemvalue="Application.StreamsDemo2" />
+      <item itemvalue="Application.StreamsDemo3" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -219,13 +338,43 @@
       <option name="project" value="LOCAL" />
       <updated>1557606162145</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;">
+      <created>1557725940264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557725940264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;">
+      <created>1558330922567</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558330922567</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;">
+      <created>1559134069781</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559134069781</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="0" width="1634" height="1017" extended-state="0" />
+    <frame x="578" y="0" width="1348" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20897436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3610675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -234,21 +383,21 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3881119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32788798" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985465" weight="0.7107345" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3559322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50064105" side_tool="true" visible="true" weight="0.25641027" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49807692" weight="0.34965035" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49935898" visible="true" weight="0.25641027" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32881355" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50145346" side_tool="true" weight="0.3871345" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49807692" weight="0.34915254" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935898" weight="0.29943502" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32998565" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -341,125 +490,501 @@
     <MESSAGE value="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LambdaDemo.java</url>
+          <line>293</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LambdaDemo.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/streams2/task19_StringArrayWithColon.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/streams3/task19_FindMinMax.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>arr[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>f.apply(Double(10))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f.apply(10)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a=15</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a=-10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f.apply(a)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f.apply(-10)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>f.apply(b)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.maxF</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.minF</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/annotations/testTT.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/ConcurrentHashMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="22">
+          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnnotationsDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/lambdas/FuncFiveArgs.java">
+    <entry file="file://$PROJECT_DIR$/src/streams3/task06.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/atomic/AtomicLong.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="132">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/FuncWithField.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/HashMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="166">
+          <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
+          <folding>
+            <element signature="e#11809#11810#0" expanded="true" />
+            <element signature="e#11855#11856#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/PrintHelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/streams3/task07.java" />
+    <entry file="file://$PROJECT_DIR$/src/streams3/task05_LenghtWordsMoreThan10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/RunSomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/SumThreeArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnnotationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="492">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/MyFunctionException.java">
+    <entry file="file://$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams1/task03_StreamFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/IntStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/FunctionException.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/CreateIntegerArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Function.java">
+    <entry file="file://$PROJECT_DIR$/src/streams3/task09_ObjectsQuantityWithDateEqualCurrentYear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="96" column="24" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+        <state relative-caret-position="166">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/BiFuncCompose.java">
+    <entry file="file://$PROJECT_DIR$/src/streams2/task14_ObjectsSortWithComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/StringWithId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
+            <element signature="method#Record#0;class#Record#0" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/FunctionLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/CreateRecords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#192#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task11_IsObjectNotCurrentYearExist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CreatePersons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="17" selection-start-line="6" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams2/task02_FilerArrayOfObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="42" selection-start-line="39" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task25.java" />
+    <entry file="file://$PROJECT_DIR$/src/streams2/task16_SortStringByPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/Stream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams2/task07_AddStringToElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task06_HashMap10MostFreqWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task08_NumberOfElementsInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" selection-start-line="18" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Math.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task21_DoFunctionToArrayElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambdas/MySupplier.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/DoubleStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="946">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/util/function/Supplier.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LambdaDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/streams3/task19_FindMinMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="220">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task17_PermutationsArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task20_CalculateIntegral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/taskXX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams2/task18_CombineListOfListToStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task26_GetStringByPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/Collectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task18_PermutationsString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task23_SumOddNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#666#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams3/task22_IntStreamFromStringArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamsDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamsDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StreamsDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -480,7 +1005,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

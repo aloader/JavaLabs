@@ -15,8 +15,8 @@ import static utils.CreateIntegerArray.createIntegerArray;
 @LabAnnotation(
         number = "12",
         text = "Верните стрим, состоящий из двух элементов перед серединой.")
-public class task12 extends task {
-    public task12() {
+public class task12_TwoElementsArray extends task {
+    public task12_TwoElementsArray() {
         super();
 
         Integer[] arr = createIntegerArray();

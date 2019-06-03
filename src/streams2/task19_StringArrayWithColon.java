@@ -18,8 +18,8 @@ import static utils.Constants.COLON;
 @LabAnnotation(
         number = "19",
         text = "Дан массив строк по шаблону: <text>:<text>:<text>:…:<text>. Вернуть массив элементов <text>.")
-public class task19 extends task {
-    public task19() {
+public class task19_StringArrayWithColon extends task {
+    public task19_StringArrayWithColon() {
         super();
 
         String[] strArr = {"1:2:3:","foo:bar", "gg:", ":kk", "jjj"};

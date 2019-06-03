@@ -15,8 +15,8 @@ import static utils.CreateIntegerArray.createIntegerArray;
 @LabAnnotation(
         number = "11",
         text = "Верните стрим, состоящий только из трети элементов по середине.")
-public class task11 extends task {
-    public task11() {
+public class task11_ThirdPartArray extends task {
+    public task11_ThirdPartArray() {
         super();
 
         Integer[] arr = createIntegerArray();

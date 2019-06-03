@@ -11,8 +11,8 @@ import java.util.stream.Stream;
 @LabAnnotation(
         number = "04",
         text = "Дан стрим, преобразовать его в ArrayList.")
-public class task04 extends task {
-    public task04() {
+public class task04_StreamToArrayList extends task {
+    public task04_StreamToArrayList() {
         super();
 
         ArrayList<Double> strArrayList = Stream.generate(()->{return Math.random();})

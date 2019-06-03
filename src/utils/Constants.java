@@ -9,4 +9,8 @@ public class Constants {
     // for string id
     static public final String UNDERLINE = "_";
 
+    // for stream2/task19_StringArrayWithColon
+    static public final String COLON = ":";
+
+    static public final String WORDSPLITTER = "[\\s\\p{Punct}]";
 }
