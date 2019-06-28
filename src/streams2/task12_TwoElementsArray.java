@@ -27,7 +27,7 @@ public class task12_TwoElementsArray extends task {
         Stream<Integer> streamFromArray = Arrays.stream(arr)
                 .skip(elN)
                 .limit(2);
-        System.out.println("array out: " + streamFromArray.collect(Collectors.toList()));
+        System.out.println("array send: " + streamFromArray.collect(Collectors.toList()));
 
     }
 }

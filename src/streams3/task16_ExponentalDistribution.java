@@ -28,7 +28,7 @@ public class task16_ExponentalDistribution extends task {
                 })
                 .limit(100000)
 //                .peek(x->{
-//                    System.out.println(x + " ");
+//                    System.send.println(x + " ");
 //                })
                 .reduce( 0d, (res, x)->{
                     min = Double.min(min, x);

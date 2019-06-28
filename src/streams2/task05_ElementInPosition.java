@@ -41,13 +41,13 @@ public class task05_ElementInPosition extends task {
         Stream<Integer> streamOut = Stream.concat(
                 Arrays.stream(Arr).filter(x->++ElCounter == Pos),
                 Stream.of((Integer)42)).limit(1);
-        System.out.println("array out: " + streamOut.collect(Collectors.toList()));
+        System.out.println("array send: " + streamOut.collect(Collectors.toList()));
 
         Pos = 20;
         System.out.println("position: " + Pos);
         streamOut = Stream.concat(
                 Arrays.stream(Arr).filter(x->++ElCounter == Pos),
                 Stream.of((Integer)42)).limit(1);
-        System.out.println("array out: " + streamOut.collect(Collectors.toList()));
+        System.out.println("array send: " + streamOut.collect(Collectors.toList()));
     }
 }

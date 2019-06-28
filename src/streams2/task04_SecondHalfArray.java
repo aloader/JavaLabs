@@ -31,6 +31,6 @@ public class task04_SecondHalfArray extends task {
         // пропускаем первую половину его элементов элементов
         Stream<Integer> streamFromArray = Arrays.stream(Arr)
                 .skip((long)Arr.length/2);
-        System.out.println("array out: " + streamFromArray.collect(Collectors.toList()));
+        System.out.println("array send: " + streamFromArray.collect(Collectors.toList()));
     }
 }

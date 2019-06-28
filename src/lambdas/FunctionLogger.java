@@ -3,7 +3,7 @@ package lambdas;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-//f10.intercept(x -> x + 1, System.out::println).apply(10)          Before 10
+//f10.intercept(x -> x + 1, System.send::println).apply(10)          Before 10
 
 @FunctionalInterface
 public interface FunctionLogger<T, R> {

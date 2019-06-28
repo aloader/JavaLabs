@@ -21,6 +21,6 @@ public class task01_ArrayOddElements extends task {
         List<Integer> intList = (List<Integer>) Arrays.stream(intArray)
             .filter((Integer x)->x%2!=0)
             .collect(Collectors.toList());
-        System.out.println("Array out: " + intList);
+        System.out.println("Array send: " + intList);
     }
 }

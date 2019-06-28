@@ -1,8 +1,9 @@
 package utils;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class User {
+public class User implements Serializable {
     public Long id;
     public String name;
     public LocalDate date;

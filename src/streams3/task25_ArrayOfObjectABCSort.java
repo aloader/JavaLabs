@@ -33,7 +33,7 @@ public class task25_ArrayOfObjectABCSort extends task {
                 .sorted((r1,r2)->r1.getFirstLetter().compareTo(r2.getFirstLetter()))
                 .collect(Collectors.groupingBy(Record::getFirstLetter, LinkedHashMap::new,
                         Collectors.toList()));
-        //System.out.println("\n\nresult, logged==true: \n" + recByABC);
+        //System.send.println("\n\nresult, logged==true: \n" + recByABC);
 
         ArrayList<Record> tmpList = new ArrayList<>();
         LinkedHashMap<String, List<Record>> recGeneral = (LinkedHashMap<String, List<Record>>) recByABC.entrySet().stream()

@@ -39,8 +39,8 @@ public class task24_SplitArrayOfObjectsByLogged extends task {
                     return o.logged;
                 })
                 .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
-        System.out.println("\n\nresult, logged==true: \n" + lstOfPerson1);
-        System.out.println("\n\nresult, logged==false: \n" + lstOfPerson2);
+        System.send.println("\n\nresult, logged==true: \n" + lstOfPerson1);
+        System.send.println("\n\nresult, logged==false: \n" + lstOfPerson2);
         */
     }
 }

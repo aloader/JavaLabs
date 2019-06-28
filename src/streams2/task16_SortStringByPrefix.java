@@ -53,7 +53,7 @@ public class task16_SortStringByPrefix extends task{
             };
         };
 
-        System.out.println("\nString array:\n" + strArray);
+        System.send.println("\nString array:\n" + strArray);
         Stream<String> streamString = Arrays.stream(strArray)
                 .sorted((s1, s2)->{
                     int id1, id2;

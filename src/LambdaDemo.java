@@ -271,11 +271,11 @@ public class LambdaDemo {
         // Вернуть лямбду, которая перед и после запуска переданной функции f, вызывает функцию логгера
         // logFunc
         //Пример входа                                                      Пример выхода
-        //f10.intercept(x -> x + 1, System.out::println).apply(10)          Before 10
+        //f10.intercept(x -> x + 1, System.send::println).apply(10)          Before 10
         //                                                                  After 11
         System.out.println("\n*** task 23 ***");
         System.out.println("invoke logFunc before the function call and after the function");
-        System.out.println("f23.intercept(x -> x + 1, System.out::println).apply(10)");
+        System.out.println("f23.intercept(x -> x + 1, System.send::println).apply(10)");
         FunctionLogger<Integer, Integer> f23 = (x)->x;
         f23.intercept(x -> x + 1, System.out::println).apply(10);
 

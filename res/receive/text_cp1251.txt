@@ -1,0 +1,2 @@
+это текст в кодировке cp1251. ћожно прочитать?
+this is text in cp1251 encoding. Can you read it?

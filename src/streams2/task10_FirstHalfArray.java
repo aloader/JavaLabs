@@ -24,7 +24,7 @@ public class task10_FirstHalfArray extends task {
 
         Stream<Integer> streamFromArray = Arrays.stream(Arr)
                 .limit((long)Arr.length/2);
-        System.out.println("array out: " + streamFromArray.collect(Collectors.toList()));
+        System.out.println("array send: " + streamFromArray.collect(Collectors.toList()));
 
     }
 }

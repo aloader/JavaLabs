@@ -18,7 +18,7 @@ public class task09_PrintArrayElements extends task {
         Integer[] Arr = createIntegerArray();
         System.out.println("print array elements with forEach:");
 //        Arrays.stream(Arr)
-//                .forEach(x-> System.out.println("el: "+ x));
+//                .forEach(x-> System.send.println("el: "+ x));
         Stream.of(Arr)
                 .forEach(x -> System.out.println("element: "+x));
     }

@@ -23,9 +23,8 @@ public class task03_WordsFromFileByFrequency extends task {
         String wordCount = "./res/payload/java8/stream/wordCount.txt";
 //        String wordCount = "./res/payload/java8/stream/File_id.diz";
 
-        try {
-            Stream<String> finalStream = Files.lines(Paths.get(wordCount))
-                .flatMap(s -> {
+        try (Stream<String> finalStream = Files.lines(Paths.get(wordCount))) {
+            finalStream.flatMap(s -> {
                     String[] wordsArray = s.split(WORDSPLITTER);
                     return Stream.of(wordsArray);
                 })
@@ -34,10 +33,7 @@ public class task03_WordsFromFileByFrequency extends task {
                 .stream()
                 .sorted((o1,o2)->o1.getValue().compareTo(o2.getValue()))
                 .map(o->o.getKey());
-
             System.out.println("result: "+ finalStream.collect(Collectors.toList()));
-
-
         } catch (IOException e) {
             System.out.println("error reading file " + wordCount + "!");
         }

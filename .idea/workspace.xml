@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NewDateAPIDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newdateapi/task01_LocalDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newdateapi/task06_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newdateapi/task11_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newdateapi/taskXX.java" afterDir="false" />
+    <list default="true" id="fb7dedea-694e-41d3-8f52-942c7bfbda9e" name="Default Changelist" comment="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas&#10; - new Date API">
+      <change afterPath="$PROJECT_DIR$/src/NIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task01_GetFilesLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task03_05_CheckFileDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task06_ReadFileToByteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task07_ReadFileToStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task08_ExceptionInFileProceeding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task09_AppendStrToTheEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task10_First3StrFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task11_Last2StrFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task12_LongestWordInTheFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task13_MostUsedWordInTheFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task14_ByteArrayInputStreamToByteArrayOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task15_BufferedInputStreamToBufferedOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task16_UsePrintStreamToOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task17_SaveAndReadWithDataOutPutStreamDataInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task18_SerializedDeserialized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task19_ZipUnzipFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task20_ReadLast1000ByteFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task21_ClientTZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task21_ServerTZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task22_ANSIIToUTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task23_24_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/task23_24_Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nioapi/taskXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/FileContentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/InputToOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ThrowingConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ThrowingPredicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/FunctionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task01_ArrayOddElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task01_ArrayOddElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task04_SecondHalfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task04_SecondHalfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task05_ElementInPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task05_ElementInPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task09_PrintArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task09_PrintArrayElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task10_FirstHalfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task10_FirstHalfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task11_ThirdPartArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task11_ThirdPartArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task12_TwoElementsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task12_TwoElementsArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams2/task16_SortStringByPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams2/task16_SortStringByPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams3/task25_ArrayOfObjectABCSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams3/task25_ArrayOfObjectABCSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,70 +61,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newdateapi/task01_LocalDateTime.java">
+        <entry file="file://$PROJECT_DIR$/src/NIODemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="154">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#184#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newdateapi/task06_10.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#186#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newdateapi/task11_16.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#186#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/time/ZonedDateTime.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newdateapi/taskXX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NewDateAPIDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/nioapi/task23_24_Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +95,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>close</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,57 +111,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/streams3/task02.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task01_FindFirstObject.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java" />
-        <option value="$PROJECT_DIR$/src/streams1/task04_StreamFromFile.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task03.java" />
+        <option value="$PROJECT_DIR$/src/utils/NIODemo.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task01.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task01_GetFilesLists.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task03.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task03_05_CheckFileDir.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task06.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task07.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task07_ReadFileToStringArray.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task06_ReadFileToByteArray.java" />
+        <option value="$PROJECT_DIR$/src/utils/FileContentException.java" />
+        <option value="$PROJECT_DIR$/src/utils/ThrowingConsumer.java" />
+        <option value="$PROJECT_DIR$/src/utils/ThrowingPredicate.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task08.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task08_ExceptionInFileProceeding.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task09.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task09_AppendStrToTheEnd.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task10.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task10_First3StrFromFile.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task11.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task11_Last2StrFromFile.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task12.java" />
         <option value="$PROJECT_DIR$/src/streams3/task03_WordsFromFileByFrequency.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task04.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task05.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task05_LenghtWordsMoreThan10.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task06.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task12_LongestWordInTheFile.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task13.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task16.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task16_UsePrintStreamToOutput.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task17.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task17_SaveAndReadWithDataOutPutStreamDataInputStream.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task18.java" />
+        <option value="$PROJECT_DIR$/src/utils/User.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task18_SerializedDeserialized.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task19.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task14.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task14_ByteArrayInputStreamToByteArrayOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task19_ZipUnzipFile.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/test_c.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task15.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task15_BufferedInputStreamToBufferedOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task20.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task20_ReadLast1000ByteFromFile.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task21.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task22.java" />
+        <option value="$PROJECT_DIR$/src/utils/InputToOutput.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task23_Server.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task23_Client.java" />
         <option value="$PROJECT_DIR$/src/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task07.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task16.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task22.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task23.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task23_SumOddNumbers.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task24.java" />
-        <option value="$PROJECT_DIR$/src/utils/CreateObjects.java" />
-        <option value="$PROJECT_DIR$/src/utils/Object.java" />
-        <option value="$PROJECT_DIR$/src/utils/Records.java" />
-        <option value="$PROJECT_DIR$/src/utils/CreateRecords.java" />
-        <option value="$PROJECT_DIR$/src/utils/StringWithId.java" />
-        <option value="$PROJECT_DIR$/src/utils/Record.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task25.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task26.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task21.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task21_DoFunctionToArrayElements.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task20.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task20_CalculateIntegral.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task19.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task19_FindMinMax.java" />
-        <option value="$PROJECT_DIR$/src/utils/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/utils/Permutations.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task17.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task18_PermutationsString.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task18.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task17_PermutationsArray.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task26_GetStringByPattern.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java" />
-        <option value="$PROJECT_DIR$/src/streams3/task22_IntStreamFromStringArray.java" />
-        <option value="$PROJECT_DIR$/src/StreamsDemo3.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/taskXX.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task01.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task11.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task11_16.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task06.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task06_10.java" />
-        <option value="$PROJECT_DIR$/src/newdateapi/task01_LocalDateTime.java" />
-        <option value="$PROJECT_DIR$/src/NewDateAPIDemo.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task21_ServerTZ.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task21_ClientTZ.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task23_24_Client.java" />
+        <option value="$PROJECT_DIR$/src/NIODemo.java" />
+        <option value="$PROJECT_DIR$/src/nioapi/task23_24_Server.java" />
       </list>
     </option>
   </component>
@@ -172,10 +171,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="width" value="1549" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="823" />
+    <option name="y" value="135" />
+    <option name="width" value="1091" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,12 +200,6 @@
             <path>
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,6 +210,18 @@
             </path>
             <path>
               <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nioapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabs" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -224,15 +229,21 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLabs2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15555556" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewDateAPIDemo">
+  <component name="RunManager" selected="Application.NIODemo">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AnnotationDemo" />
       <module name="JavaLabs" />
@@ -256,6 +267,13 @@
     </configuration>
     <configuration name="LambdaDemo" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="LambdaDemo" />
+      <module name="JavaLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIODemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="NIODemo" />
       <module name="JavaLabs" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,10 +310,11 @@
     <list>
       <item itemvalue="Application.AnnotationDemo" />
       <item itemvalue="Application.LambdaDemo" />
+      <item itemvalue="Application.NIODemo" />
+      <item itemvalue="Application.NewDateAPIDemo" />
       <item itemvalue="Application.StreamsDemo1" />
       <item itemvalue="Application.StreamsDemo2" />
       <item itemvalue="Application.StreamsDemo3" />
-      <item itemvalue="Application.NewDateAPIDemo" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -393,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559560873834</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas&#10; - new Date API">
+      <created>1559577226746</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559577226746</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -406,10 +432,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="0" width="1549" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3118644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31578946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -418,16 +444,16 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32768363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4976271" weight="0.4214689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3559322" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32655367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4976271" weight="0.32550335" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40268457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32881355" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50237286" side_tool="true" weight="0.4214689" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49807692" weight="0.34915254" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935898" weight="0.29943502" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935898" weight="0.29604518" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -524,7 +550,8 @@
     <MESSAGE value="task &quot;annotation&quot;" />
     <MESSAGE value="1. Task &quot;annotation&quot;&#10;Run configuration &quot;AnnotationDemo&quot;&#10;&#10;2. Task &quot;lambdas&quot;&#10;Run configuration &quot;LambdaDemo&quot;" />
     <MESSAGE value="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas" />
+    <MESSAGE value="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas&#10; - new Date API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks:&#10; - annotations&#10; - streams, part1&#10; - streams, part2&#10; - streams, part3&#10; - lambdas&#10; - new Date API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,11 +580,73 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task01_GetFilesLists.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task08_ExceptionInFileProceeding.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task19_ZipUnzipFile.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task15_BufferedInputStreamToBufferedOutputStream.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task22_ANSIIToUTF.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task21_ServerTZ.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task21_ServerTZ.java</url>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nioapi/task23_24_Server.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>lastStrings.toString().split(&quot;\n&quot;).length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lastStrings.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Files.isDirectory(el)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>arr[i]</expression-string>
         <language-id>JAVA</language-id>
@@ -566,450 +655,444 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>f.apply(Double(10))</expression-string>
+        <expression-string>Charset.availableCharsets()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>f.apply(10)</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Europe/London1&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a=15</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Europe/London&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>a=-10</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Europe/Moscow&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>f.apply(a)</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Europe/Minsk&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>f.apply(-10)</expression-string>
+        <expression-string>timeZonesIdSet</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>f.apply(b)</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;By/Minsk&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.maxF</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Minsk&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.minF</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s</expression-string>
+        <expression-string>timeZonesIdSet.contains(&quot;Moscow&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task13_MostUsedWordInTheFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/IntStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task04_StreamToArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="286">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1578#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CreateIntegerArray.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/ByteArrayInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task09_ObjectsQuantityWithDateEqualCurrentYear.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/DataOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams2/task14_ObjectsSortWithComparator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/UncheckedIOException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task02_FindAnyObject.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-66">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/ObjectInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/ObjectOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="418" selection-start-line="418" selection-end-line="418" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="110">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Person.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/nio/file/Paths.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task16_UsePrintStreamToOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/StringWithId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="method#Record#0;class#Record#0" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CreateRecords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#192#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task11_IsObjectNotCurrentYearExist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CreatePersons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="17" selection-start-line="6" selection-end-line="17" />
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams2/task02_FilerArrayOfObjects.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/FileOutputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="42" selection-start-line="39" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task25.java" />
-    <entry file="file://$PROJECT_DIR$/src/streams2/task16_SortStringByPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/Stream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams2/task07_AddStringToElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task06_HashMap10MostFreqWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task08_NumberOfElementsInArray.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task17_SaveAndReadWithDataOutPutStreamDataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="20" selection-start-line="18" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task16_ExponentalDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Math.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/zip/InflaterInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        <state relative-caret-position="1320">
+          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task21_DoFunctionToArrayElements.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Formatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task12_LongestWordInTheFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/DoubleStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task19_FindMinMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task17_PermutationsArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task20_CalculateIntegral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams2/task18_CombineListOfListToStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#1193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task26_GetStringByPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/Collectors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task18_PermutationsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task24_SplitArrayOfObjectsByLogged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task23_SumOddNumbers.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/zip/ZipEntry.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#666#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/task22_IntStreamFromStringArray.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task03_05_CheckFileDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="704">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamsDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task07_ReadFileToStringArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamsDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/streams3/taskXX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="22" selection-end-line="15" />
+        <state relative-caret-position="470">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
-            <element signature="e#0#184#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StreamsDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task09_AppendStrToTheEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/time/LocalDate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="275" selection-start-line="275" selection-end-line="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/time/LocalDateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/time/format/DateTimeFormatterBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1478" selection-start-line="1478" selection-end-line="1478" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newdateapi/taskXX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-end-line="15" />
+        <state relative-caret-position="536">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding>
-            <element signature="e#0#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/time/ZonedDateTime.class">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task19_ZipUnzipFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="2046">
+          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/test_c.java" />
+    <entry file="file://$PROJECT_DIR$/src/LambdaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="291" column="12" lean-forward="true" selection-start-line="291" selection-start-column="12" selection-end-line="291" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/function/Function.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task15_BufferedInputStreamToBufferedOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#373#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/RandomAccessFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task11_Last2StrFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/net/DualStackPlainSocketImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/net/ServerSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="210" column="18" selection-start-line="210" selection-start-column="18" selection-end-line="210" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newdateapi/task11_16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="52">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task20_ReadLast1000ByteFromFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="303" column="18" selection-start-line="303" selection-start-column="18" selection-end-line="303" selection-end-column="18" />
           <folding>
-            <element signature="e#0#186#0" expanded="true" />
+            <element signature="e#9341#9342#0" expanded="true" />
+            <element signature="e#9417#9418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/io/FileInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task14_ByteArrayInputStreamToByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="50" selection-start-line="38" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task06_ReadFileToByteArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/nio/file/Files.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task22_ANSIIToUTF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#182#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Base64.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
+          <folding>
+            <element signature="e#7790#7791#0" expanded="true" />
+            <element signature="e#7876#7877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task18_SerializedDeserialized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/net/Socket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="526" column="29" selection-start-line="526" selection-start-column="29" selection-end-line="526" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newdateapi/task01_05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task21_ClientTZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3824#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task21_ServerTZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#2853#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
+            <element signature="e#3003#3004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/taskXX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/InputToOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task23_24_Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="49" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#2449#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1017,30 +1100,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newdateapi/task06_10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#186#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newdateapi/task01_LocalDateTime.java">
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task08_ExceptionInFileProceeding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#184#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NewDateAPIDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/NIODemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nioapi/task23_24_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,6 +1138,17 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1101,7 +1200,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
